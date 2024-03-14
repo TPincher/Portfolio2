@@ -42,11 +42,17 @@ Change logs
 
     Write a paragraph labelled with the date every day you work on the project to discuss what you've done for the say. Be specific about the changes that have happened for that day.
 
-13/02/2022 - {Theme of changes if applicable}
+12/03/2024
 
-    Extended the expiry time of JWT tokens on the backend
-    Added users to cohort response payload
-    Centralized API base URL on frontend using the proxy package.json property
+    Initial project creation.
+    Split app out into separate page routes
+    Added a Navbar and styling
+
+14/03/2024
+
+    Attempted to implement a video player to have short .mp4 files, but could only find old library documentation. Have settled for imaged that will rotate automatically.
+    Added object containing all project data and added a useEffect to call pull that data in. I've kept the project data in a separate file so that it's easy to update in the future, instead of digging through the app itself.
+    Created project sliders
 
 What did you struggle with?
 
