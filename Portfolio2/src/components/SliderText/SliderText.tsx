@@ -1,4 +1,4 @@
-import getProjects from "../../assets/Projects";
+import { getProjects } from "../../assets/Projects";
 import styles from "./SliderText.module.scss";
 import { Project } from "../../assets/Projects";
 

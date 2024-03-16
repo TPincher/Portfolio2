@@ -1,0 +1,62 @@
+.allPages {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageBox {
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 5px 5px gray;
+  width: 80vw;
+  height: 300px;
+  z-index: 4;
+}
+
+.images {
+  width: 20vw;
+  height: 300px;
+  filter: grayscale(80%) blur(2px);
+  transition: filter 0.3s ease;
+
+  &:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+}
+
+.profilePic {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5%;
+  border: 6px solid midnightblue;
+  box-shadow: 5px 5px gray;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+.homePageLeft,
+.homePageRight {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 30vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutPage {
+  width: 60vw;
+  box-shadow: 5px 5px gray;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  padding: 20px;
+}

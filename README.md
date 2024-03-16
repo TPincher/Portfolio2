@@ -54,6 +54,10 @@ Change logs
     Added object containing all project data and added a useEffect to call pull that data in. I've kept the project data in a separate file so that it's easy to update in the future, instead of digging through the app itself.
     Created project sliders
 
+15/03/2025
+
+    Restructured the project data file to be TypeScript friendly - took a bit but has been a valuable learning experience in how explicit you have to be with TS.
+
 What did you struggle with?
 
     What? Why? How?

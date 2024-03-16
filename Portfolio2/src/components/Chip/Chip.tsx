@@ -1,7 +1,11 @@
 import styles from "./Chip.module.scss";
 
-const Chip = () => {
-  return <div>Chip</div>;
+interface props {
+  content: string;
+}
+
+const Chip = (props: props) => {
+  return <p className={styles.pill}> {props.content} </p>;
 };
 
 export default Chip;

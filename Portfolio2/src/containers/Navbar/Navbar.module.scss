@@ -1,12 +1,19 @@
 .nav {
   display: flex;
-  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
   width: 100vw;
+  justify-content: space-around;
+  background-color: midnightblue;
+  color: white;
   border: 2px solid black;
 }
 
 .link {
-  color: black;
+  color: white;
+  text-decoration: none;
 
   &:hover {
     color: rgb(0, 162, 255);
@@ -15,4 +22,17 @@
 
 .active_link {
   color: aqua;
+}
+
+.pageLinkSection {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.externalLinkSection {
+  display: flex;
+  align-items: center;
 }
