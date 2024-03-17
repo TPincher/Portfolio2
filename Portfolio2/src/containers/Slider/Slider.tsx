@@ -9,16 +9,17 @@ const Slider = (props: Project) => {
     <div>
       <div className={styles.container}>
         <div>
-          <p>{props.title}</p>
+          <h2>{props.title}</h2>
           <p>{props.details}</p>
+          <p>{props.details && "Built using:"}</p>
           <p>{props.features}</p>
-          <p>
+          <p className={styles.chipBox}>
             {props.stack &&
               props.stack.map((item: string) => {
                 return <Chip content={item} />;
               })}
           </p>
-          <IconContext.Provider value={{ size: "2em" }}>
+          <IconContext.Provider value={{ color: "#096b90", size: "3em" }}>
             <a href={props.link} target="_blank">
               {props.link && <FaGithub />}
             </a>

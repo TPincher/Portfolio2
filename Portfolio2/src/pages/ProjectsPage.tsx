@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { getProjects } from "../assets/Projects";
-import Title from "../components/Title/Title";
 import Slider from "../containers/Slider/Slider";
 import { Project } from "../assets/Projects";
 import styles from "./PageStyles.module.scss";
@@ -24,7 +23,7 @@ const ProjectsPage = () => {
   }, []);
 
   const [selectedProject, setSelectedProject] = useState<Project>({
-    title: "Select a project from above to get more information",
+    title: " ◄ Click on a project for more information",
     details: "",
     features: "",
     stack: [],
@@ -40,31 +39,29 @@ const ProjectsPage = () => {
   }
 
   return (
-    <main className={styles.allPages}>
-      <Title
-        title={"Projects Page"}
-        subtitle={"Check out some of my projects"}
-      />
-      <div className={styles.imageBox}>
-        {projectData &&
-          projectData.map((item: Project) => {
-            return (
-              <img
-                onClick={() => paneClick(item)}
-                src={item.splash}
-                className={styles.images}
-              />
-            );
-          })}
-      </div>
-      <Slider
-        title={selectedProject.title}
-        details={selectedProject.details}
-        features={selectedProject.features}
-        stack={selectedProject.stack}
-        link={selectedProject.link}
-        images={selectedProject.images}
-      />
+    <main>
+      <section className={styles.allPages}>
+        <div className={styles.imageBox}>
+          {projectData &&
+            projectData.map((item: Project) => {
+              return (
+                <img
+                  onClick={() => paneClick(item)}
+                  src={item.splash}
+                  className={styles.images}
+                />
+              );
+            })}
+        </div>
+        <Slider
+          title={selectedProject.title}
+          details={selectedProject.details}
+          features={selectedProject.features}
+          stack={selectedProject.stack}
+          link={selectedProject.link}
+          images={selectedProject.images}
+        />
+      </section>
     </main>
   );
 };

@@ -1,0 +1,14 @@
+@use "../../partials/palette";
+
+.footer {
+  @include palette.primaryReverse;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 25px;
+  width: 100vw;
+  justify-content: space-around;
+  color: white;
+  box-shadow: -2px -5px 5px #032b44;
+}

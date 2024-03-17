@@ -54,9 +54,26 @@ Change logs
     Added object containing all project data and added a useEffect to call pull that data in. I've kept the project data in a separate file so that it's easy to update in the future, instead of digging through the app itself.
     Created project sliders
 
-15/03/2025
+15/03/2024
 
     Restructured the project data file to be TypeScript friendly - took a bit but has been a valuable learning experience in how explicit you have to be with TS.
+
+16/03/2024
+
+    Updated the 'projects' page to by more dynamic
+    Fixed issue with skill 'chips' on 'projects' page not displaying properly
+    Fixed github link graphical issue
+
+17/03/2024
+
+    Major overhaul of site styling - feedback was that it looked dated so I had to spend hours looking at more modern websites.
+    There's still a lot that I don't know how to do, but added:
+        dynamic box shadowing
+        changed the colour-palette
+        updated all pages to reduce element width
+        updated the 'stack' and 'about' pages in particular to use a 'pillar' concept
+        Added in icons on the 'stack' page
+        Added partials folder with website palette and changed styling files, almost entire website palette can now be updated from this file.
 
 What did you struggle with?
 

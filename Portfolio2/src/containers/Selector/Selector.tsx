@@ -1,4 +1,3 @@
-import SliderPane from "../../components/SliderPane/SliderPane";
 import styles from "./Selector.module.scss";
 
 interface props {

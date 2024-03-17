@@ -3,4 +3,13 @@ body,
 html {
   background-image: url("./assets/BGFaded.jpg");
   background-size: cover;
+  font-family: Helvetica, sans-serif;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #71b6d5;
 }

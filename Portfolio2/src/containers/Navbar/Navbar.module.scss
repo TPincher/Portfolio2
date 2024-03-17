@@ -1,14 +1,16 @@
+@use "../../partials/palette";
+
 .nav {
+  @include palette.primary;
+  @include palette.shadow;
   display: flex;
   position: fixed;
+  padding-top: 5px;
   top: 0;
   left: 0;
-  height: 50px;
+  height: 70px;
   width: 100vw;
-  justify-content: space-around;
-  background-color: midnightblue;
   color: white;
-  border: 2px solid black;
 }
 
 .link {
@@ -16,23 +18,52 @@
   text-decoration: none;
 
   &:hover {
-    color: rgb(0, 162, 255);
+    color: #71b6d5;
   }
 }
 
 .active_link {
-  color: aqua;
+  font-size: xx-large;
+}
+
+.leftSection {
+  display: flex;
+  width: 45vw;
+  flex-direction: row;
+}
+
+.personalSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 20vw;
+}
+
+.personalText {
+  height: 3vh;
+  margin: 0;
 }
 
 .pageLinkSection {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 25vw;
   justify-content: space-between;
   align-items: center;
 }
 
+.rightSection {
+  display: flex;
+  flex-direction: row;
+  width: 55vw;
+  justify-content: flex-end;
+}
+
 .externalLinkSection {
   display: flex;
+  width: 8vw;
+  justify-content: space-around;
   align-items: center;
+  margin-right: 4vw;
 }
