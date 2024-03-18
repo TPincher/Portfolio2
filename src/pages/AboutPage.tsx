@@ -4,9 +4,9 @@ const AboutPage = () => {
   return (
     <main>
       <section className={styles.allPages}>
-        <div className={styles.StackPage}>
-          <article className={styles.stackText}>
-            <h2>The time before tech</h2>
+        <div className={styles.AboutPage}>
+          <article className={styles.aboutText}>
+            <h2 className={styles.aboutDividedTitle}>The time before tech</h2>
             <p>
               Unsure of what I wanted to do as a career, I'd worked in the FMCG
               industry for nearly two decades, working everything from
@@ -19,8 +19,8 @@ const AboutPage = () => {
               SQL.
             </p>
           </article>
-          <article className={styles.stackText}>
-            <h2>Further Education</h2>
+          <article className={styles.aboutText}>
+            <h2 className={styles.aboutDividedTitle}>Further Education</h2>
             <p>
               Before long I found myself as the go-to in the team for anything
               tech related, and I decided it was time to plan a career change -
@@ -31,8 +31,8 @@ const AboutPage = () => {
               with _nology!
             </p>
           </article>
-          <article className={styles.stackText}>
-            <h2>AFK</h2>
+          <article className={styles.aboutText}>
+            <h2 className={styles.aboutDividedTitle}>AFK</h2>
             <p>
               Tech and career aspirations aside, I mostly keep myself sane
               through sports, whether it be snowboarding, target-shooting or

@@ -20,7 +20,7 @@ const StackPage = () => {
       <section className={styles.allPages}>
         <div className={styles.StackPage}>
           <article className={styles.stackText}>
-            <h2>Current Stack</h2>
+            <h2 className={styles.aboutDividedTitle}>Current Stack</h2>
             <p>
               I have a solid grasp of the basics - HTML, CSS, SQL, and
               JavaScript - while also having some project experience with React
@@ -40,7 +40,7 @@ const StackPage = () => {
             </p>
           </article>
           <article className={styles.stackText}>
-            <h2>Now Studying</h2>
+            <h2 className={styles.aboutDividedTitle}>Now Studying</h2>
             <p>
               While I already have projects that utilize TypeScript and Java,
               all my current work is based on praciticing these two languages
@@ -53,7 +53,7 @@ const StackPage = () => {
             </p>
           </article>
           <article className={styles.stackText}>
-            <h2>On the radar</h2>
+            <h2 className={styles.aboutDividedTitle}>On the radar</h2>
             <p>
               _nology graduates are lucky enough to get access to AWS and
               Microsoft certifications, which I am currently working through

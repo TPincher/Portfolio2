@@ -73,14 +73,10 @@
   @include palette.secondary;
   border-radius: 8px;
   padding: 20px;
-
-  &AboutPage {
-    @extend.text;
-    width: 60vw;
-  }
 }
 
-.StackPage {
+.StackPage,
+.AboutPage {
   display: flex;
   flex-direction: row;
   height: 70vh;
@@ -89,18 +85,23 @@
   margin-top: 20vh;
 }
 
-.stackText {
+.stackText,
+.aboutText {
   @include palette.shadow;
   @include palette.secondary;
   width: 20vw;
   margin: 25px;
   border-radius: 20px;
-  padding: 20px;
+  padding: 50px;
   transition: box-shadow 0.3s ease;
 
   &:hover {
     @include palette.deepShadow;
   }
+}
+
+.aboutDividedTitle {
+  border-bottom: 4px double #032b44;
 }
 
 .iconStyles {
