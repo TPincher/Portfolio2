@@ -42,11 +42,38 @@ Change logs
 
     Write a paragraph labelled with the date every day you work on the project to discuss what you've done for the say. Be specific about the changes that have happened for that day.
 
-13/02/2022 - {Theme of changes if applicable}
+12/03/2024
 
-    Extended the expiry time of JWT tokens on the backend
-    Added users to cohort response payload
-    Centralized API base URL on frontend using the proxy package.json property
+    Initial project creation.
+    Split app out into separate page routes
+    Added a Navbar and styling
+
+14/03/2024
+
+    Attempted to implement a video player to have short .mp4 files, but could only find old library documentation. Have settled for imaged that will rotate automatically.
+    Added object containing all project data and added a useEffect to call pull that data in. I've kept the project data in a separate file so that it's easy to update in the future, instead of digging through the app itself.
+    Created project sliders
+
+15/03/2024
+
+    Restructured the project data file to be TypeScript friendly - took a bit but has been a valuable learning experience in how explicit you have to be with TS.
+
+16/03/2024
+
+    Updated the 'projects' page to by more dynamic
+    Fixed issue with skill 'chips' on 'projects' page not displaying properly
+    Fixed github link graphical issue
+
+17/03/2024
+
+    Major overhaul of site styling - feedback was that it looked dated so I had to spend hours looking at more modern websites.
+    There's still a lot that I don't know how to do, but added:
+        dynamic box shadowing
+        changed the colour-palette
+        updated all pages to reduce element width
+        updated the 'stack' and 'about' pages in particular to use a 'pillar' concept
+        Added in icons on the 'stack' page
+        Added partials folder with website palette and changed styling files, almost entire website palette can now be updated from this file.
 
 What did you struggle with?
 

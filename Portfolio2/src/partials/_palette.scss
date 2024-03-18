@@ -1,0 +1,23 @@
+@mixin shadow {
+  box-shadow: 2px 5px 5px #032b44;
+}
+
+@mixin deepShadow {
+  box-shadow: 8px 20px 20px #032b44;
+}
+
+@mixin primary {
+  background: linear-gradient(to right, (#096b90) 20%, (#032b44) 80%);
+}
+
+@mixin primaryReverse {
+  background: linear-gradient(to right, (#032b44) 20%, (#096b90) 80%);
+}
+
+@mixin secondary {
+  background-color: #cee7f0;
+}
+
+@mixin trim {
+  background-color: #71b6d5;
+}
