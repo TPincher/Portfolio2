@@ -2,41 +2,32 @@
 
 A remake of my portfolio website. This time in React
 
-{add test badges here, all projects you build from here on out will have tests, therefore you should have github workflow badges at the top of your repositories: Github Workflow Badges}
-Demo & Snippets
-
-    Include hosted link
-    Include images of app if CLI or Client App
+    This project is hosted at https://fabulous-babka-7d489d.netlify.app/
 
 Requirements / Purpose
 
-    MVP
-    purpose of project
-    stack used and why
+    This project was to update my original portfolio - the last one had aged considerably.
 
-Build Steps
-
-    how to build / run project
-    use proper code snippets if there are any commands to run
+    I built this project in TypeScript, React, and Sass. It was a good opportunity to practice the skills I'd gained over the _nology course.
 
 Design Goals / Approach
 
-    Design goals
-    why did you implement this the way you did?
+    One thing I have always had difficulty with was styling an app that looked like it was made after 2000. I played with verticality and a generated colour theme, along with
+    some more complex styling than I'd used previously to make something a little more modern.
 
 Features
 
-    What features does the project have?
-    list them...
+    In this rebuild I was particularly happy to move away from the HTML address tag, and went with a third party to get form submission working correctly. I'm also quite happy
+    with how updateable the projects section is. The project data is all kept in a file at the root level, which keeps the project code cleaner. This was a big improvement from
+    the massive chunks of copy inside the code from my last iteration.
 
 Known issues
 
-    Remaining bugs, things that have been left unfixed
-    Features that are buggy / flimsy
+    The app is not yet mobile responsive, which will need some updating. The links at the top-right are also displaying in the wrong colour prior to being visited on some browsers.
 
 Future Goals
 
-    What are the immediate features you'd add given more time
+    Fixing the two issues above, and maybe adding links to _nology and udacity.
 
 Change logs
 
@@ -83,15 +74,11 @@ Change logs
     I could implement some testing, and I still need to route the form submission to my email address. I'm not yet sure how to do that, but it's can't be too difficult.
     Still need to flesh out some of the copy of projects and personal history.
 
+03/04/2024
+
+    Completed the form submission by using Formspree and have tested thoroughly.
+    Some final styling before merging the code and hosting.
+
 What did you struggle with?
 
-    What? Why? How?
-
-Licensing Details
-
-    What type of license are you releasing this under?
-
-Further details, related projects, reimplementations
-
-    Is this project a reimplementation for something you've done in the past? if so explain it and link it here.
-    If it's an API, is there a client app that works with this project? link it
+    Styling still needs work, but that will come with time. This project was great to work through my understanding of TypeScript and managing form submission outcomes.
