@@ -7,6 +7,8 @@ import ProjectsPage from "./pages/ProjectsPage";
 import StackPage from "./pages/StackPage";
 import Navbar from "./containers/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
           <Route path="/stack" element={<StackPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
+        <ToastContainer />
         <Footer />
       </BrowserRouter>
     </>

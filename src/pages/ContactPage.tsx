@@ -5,7 +5,7 @@ const ContactPage = () => {
   return (
     <main>
       <section className={styles.allPages}>
-        <ContactForm submit={undefined} />
+        <ContactForm />
       </section>
     </main>
   );
