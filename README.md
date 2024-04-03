@@ -76,6 +76,13 @@ Change logs
         Added partials folder with website palette and changed styling files, almost entire website palette can now be updated from this file.
         Went through and consolidated components, managed to remove half of them
 
+18/03/2024
+
+    Managed to build the project in a way that will allow Netlify to display the images. It's meant a bit of a restructure but this has been an issue for most of the cohort so I've already shared the process around.
+    Have nearly finished the styling on the page, which I'm getting more and more happy with
+    I could implement some testing, and I still need to route the form submission to my email address. I'm not yet sure how to do that, but it's can't be too difficult.
+    Still need to flesh out some of the copy of projects and personal history.
+
 What did you struggle with?
 
     What? Why? How?

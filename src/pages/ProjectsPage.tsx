@@ -33,9 +33,7 @@ const ProjectsPage = () => {
   });
 
   function paneClick(item: Project) {
-    console.log(item);
     setSelectedProject(item);
-    console.log(selectedProject);
   }
 
   return (
@@ -43,10 +41,11 @@ const ProjectsPage = () => {
       <section className={styles.allPages}>
         <div className={styles.imageBox}>
           {projectData &&
-            projectData.map((item: Project) => {
+            projectData.map((item: Project, id: number) => {
               return (
                 <img
                   onClick={() => paneClick(item)}
+                  key={id}
                   src={item.splash}
                   className={styles.images}
                 />

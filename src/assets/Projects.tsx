@@ -37,7 +37,7 @@ const Project2: Project = {
   details:
     "Built in React and utilizing the Firestore database, this 'site' utilizes a function to dynamically populate or reset the 'stock' database. The API call watches for any adjustments to the data which is held in context, and then updates the database and re-pulls as needed. The user can add items and variants to cart, then 'complete' the purchase where the items in cart will be decremented from the database.",
   features: "",
-  stack: ["FireStore", "React", "Sass"],
+  stack: ["FireStore", "React", "Sass", "JavaScript"],
   link: "https://github.com/TPincher/ECommerceSite/tree/development",
   splash: EcomImage,
   images: ["Ecom.JPG"],

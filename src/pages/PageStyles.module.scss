@@ -47,6 +47,7 @@
 }
 
 .homePage {
+  text-align: center;
   display: flex;
   flex-direction: row;
   height: 70vh;
@@ -89,6 +90,9 @@
 .aboutText {
   @include palette.shadow;
   @include palette.secondary;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
   width: 20vw;
   margin: 25px;
   border-radius: 20px;

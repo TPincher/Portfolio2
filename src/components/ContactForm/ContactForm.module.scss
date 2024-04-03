@@ -1,15 +1,16 @@
 @use "../../partials/palette";
 
-.TaskForm {
+.taskForm {
   @include palette.secondary;
   @include palette.shadow;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
   width: 50vw;
-  height: 50vh;
+  height: 60vh;
   border-radius: 15px;
   padding: 20px;
   margin-top: 10vh;
@@ -25,10 +26,20 @@
 .formBox {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 30vh;
 }
 
 .formButton {
   width: 20vw;
   min-width: 100px;
+}
+
+textarea {
+  resize: none;
+}
+
+.response {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }

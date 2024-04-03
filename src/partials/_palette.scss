@@ -7,11 +7,21 @@
 }
 
 @mixin primary {
-  background: linear-gradient(to right, (#096b90) 20%, (#032b44) 80%);
+  background: linear-gradient(
+    to right,
+    (#096b90) 40%,
+    (#032b44) 70%,
+    (#096b90) 100%
+  );
 }
 
 @mixin primaryReverse {
-  background: linear-gradient(to right, (#032b44) 20%, (#096b90) 80%);
+  background: linear-gradient(
+    to right,
+    (#032b44) 40%,
+    (#096b90) 70%,
+    (#032b44) 100%
+  );
 }
 
 @mixin secondary {
