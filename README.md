@@ -1,44 +1,47 @@
 # Portfolio2
 
-A remake of my portfolio website. This time in React
+A remake of my portfolio website, 3 months on from when I first started development.
+
 ![Video demonstrating the different pages](./src/assets/Portfolio.gif)
 
-    This project is hosted at https://fabulous-babka-7d489d.netlify.app/
+This project is hosted at https://fabulous-babka-7d489d.netlify.app/
 
-Requirements / Purpose
+## Requirements / Purpose
 
-    This project was to update my original portfolio - the last one had aged considerably.
+This project was to update my original portfolio - the last one had aged considerably.
 
-    I built this project in TypeScript, React, and Sass. It was a good opportunity to practice the skills I'd gained over the _nology course.
+I built this project in
 
-Design Goals / Approach
+-TypeScript
+-React
+-Sass
 
-    One thing I have always had difficulty with was styling an app that looked like it was made after 2000. I played with verticality and a generated colour theme, along with
-    some more complex styling than I'd used previously to make something a little more modern.
+## Design Goals / Approach
 
-Features
+One thing I have always had difficulty with was styling an app that looked like it was made after 2000. I played with verticality and a generated colour theme, along with
+some more complex styling than I'd used previously to make something a little more modern.
 
-    In this rebuild I was particularly happy to move away from the HTML address tag, and went with a third party to get form submission working correctly. I'm also quite happy
-    with how updateable the projects section is. The project data is all kept in a file at the root level, which keeps the project code cleaner. This was a big improvement from
-    the massive chunks of copy inside the code from my last iteration.
+## Features
 
-Known issues
+In this rebuild I was particularly happy to move away from the HTML address tag, and went with a third party to get form submission working correctly. I'm also quite happy
+with how updateable the projects section is. The project data is all kept in a file at the root level, which keeps the project code cleaner. This was a big improvement from
+the massive chunks of copy inside the code from my last iteration.
 
-    The app is not yet mobile responsive, which will need some updating. The links at the top-right are also displaying in the wrong colour prior to being visited on some browsers.
+## Known issues
 
-Future Goals
+The app is not yet mobile responsive, which will need some updating. The links at the top-right are also displaying in the wrong colour prior to being visited on some browsers.
 
-    Fixing the two issues above, and maybe adding links to _nology and udacity.
+## Future Goals
 
-Change logs
+Fixing the two issues above, and maybe adding links to \_nology and udacity.
 
-    Write a paragraph labelled with the date every day you work on the project to discuss what you've done for the say. Be specific about the changes that have happened for that day.
+## Change logs
 
 12/03/2024
 
-    Initial project creation.
-    Split app out into separate page routes
-    Added a Navbar and styling
+    - Initial project creation.
+    - Split app out into separate page routes
+    - Added a Navbar and styling
 
 14/03/2024
 
