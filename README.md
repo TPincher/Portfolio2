@@ -84,6 +84,6 @@ There's still a lot that I don't know how to do, but added:
 - Completed the form submission by using Formspree and have tested thoroughly.
 - Some final styling before merging the code and hosting.
 
-What did you struggle with?
+## What did you struggle with?
 
 - Styling still needs work, but that will come with time. This project was great to work through my understanding of TypeScript and managing form submission outcomes.
