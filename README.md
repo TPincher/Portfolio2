@@ -2,6 +2,7 @@
 
 A remake of my portfolio website. This time in React
 
+    ![Video demonstrating the different pages](./src/assets/Portfolio.gif)
     This project is hosted at https://fabulous-babka-7d489d.netlify.app/
 
 Requirements / Purpose
