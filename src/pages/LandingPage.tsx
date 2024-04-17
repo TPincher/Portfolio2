@@ -7,7 +7,8 @@ const LandingPage = () => {
       <section className={styles.homePage}>
         <div className={styles.homePageLeft}>
           <h1 className={styles.landingTitle}>Thomas Pincher</h1>
-          <h2>Junior full-stack developer</h2>
+          <h3>Ex-operations manager</h3>
+          <h3>Lifelong tech enthusiast</h3>
           <p>Learning to code, one bit at a time</p>
         </div>
         <div className={styles.homePageRight}>
