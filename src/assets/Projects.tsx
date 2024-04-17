@@ -2,6 +2,7 @@ import EcomImage from "./Ecom.jpg";
 import GbooksImage from "./Gbooks.jpg";
 import ToDoImage from "./ToDo.jpg";
 import MinesweeperImage from "./MineSweeper.jpg";
+import EmployeeCreator from "./ECreator.jpg";
 
 export interface Project {
   title: string;
@@ -65,7 +66,26 @@ const Project4: Project = {
   images: ["Gbooks.JPG"],
 };
 
-const data: Project[] = [Project1, Project2, Project3, Project4];
+const Project5: Project = {
+  title: "Employee Creator",
+  details:
+    "Next iteration of a full end-to-end application which simulates an employee application that has the ability to add, edit, list and remove employees from a database. I wanted to create something that looked interesting, so I went with inspiration from the Fallout universe with green CRT look.",
+  features: "",
+  stack: [
+    "MySQL",
+    "SpringBoot",
+    "Java",
+    "Eclipse",
+    "TypeScript",
+    "React",
+    "Sass",
+  ],
+  link: "https://github.com/TPincher/EmployeeCreator/tree/develop",
+  splash: EmployeeCreator,
+  images: ["ECreator.jpg"],
+};
+
+const data: Project[] = [Project1, Project2, Project3, Project4, Project5];
 
 export const getProjects = () => {
   return data;
