@@ -3,6 +3,8 @@ import GbooksImage from "./Gbooks.jpg";
 import ToDoImage from "./ToDo.jpg";
 import MinesweeperImage from "./MineSweeper.jpg";
 import EmployeeCreator from "./ECreator.jpg";
+import Flights from "./Flights.jpg";
+import Bikes from "./GoBikes.jpg";
 
 export interface Project {
   title: string;
@@ -85,7 +87,44 @@ const Project5: Project = {
   images: ["ECreator.jpg"],
 };
 
-const data: Project[] = [Project1, Project2, Project3, Project4, Project5];
+const Project6: Project = {
+  title: "Tableau Data Dashboard",
+  details:
+    "This was a part of my Udacity Business Analytics Nanodegree. I was given several related datasets which needed to be wrangled, analyzed, combined, and then presented as an interactive dashboard using Tableau. The visualizations were then used to reinforce insights gleaned from the data.",
+  features: "",
+  stack: ["MS Excel", "Tableau"],
+  link: "https://github.com/TPincher/TableauFlights",
+  splash: Flights,
+  images: ["Flights.jpg"],
+};
+
+const Project7: Project = {
+  title: "Bikeshare Dataset Visualization",
+  details:
+    "An exploratory data analysis using Jupyter Notebooks. This project was a part of my Udacity Data Analytics Nanodegree, and analyses a dataset of nearly 200,000 bikeshare trips from the San Francisco Bay area.",
+  features: "",
+  stack: [
+    "Jupyter Notebooks",
+    "Python",
+    "NumPy",
+    "Pandas",
+    "MatPlotLib",
+    "Seaborn",
+  ],
+  link: "https://github.com/TPincher/GoBikeTripData",
+  splash: Bikes,
+  images: ["GoBikes.jpg"],
+};
+
+const data: Project[] = [
+  Project1,
+  Project2,
+  Project3,
+  Project4,
+  Project5,
+  Project6,
+  Project7,
+];
 
 export const getProjects = () => {
   return data;
